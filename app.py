@@ -394,8 +394,8 @@ def find_logo(filename):
             return str(path)
     raise FileNotFoundError(f'الشعار غير موجود: {filename}')
 
-TAKAMOL = find_logo('takamol_2026.png')
-TAIBAH = find_logo('taibah_university.png')
+TAKAMOL = str(Path(__file__).resolve().parent / 'takamol_2026.png')
+TAIBAH = str(Path(__file__).resolve().parent / 'taibah_university.png')
 # المسارات تُخدم عبر Gradio باستخدام gr.File، وتحتاج السماح بمجلد الشعارات
 from pathlib import Path
 from html import escape
