@@ -343,8 +343,8 @@ CSS = r'''
 '''
 
 # استخدمي الملفين داخل مجلد logos الذي يُفك من الحزمة.
-TAKAMOL = 'logos/takamol_2026.png'
-TAIBAH = 'logos/taibah_university.png'
+TAKAMOL = 'takamol_2026.png'
+TAIBAH = 'taibah_university.png'
 # المسارات تُخدم عبر Gradio باستخدام gr.File، وتحتاج السماح بمجلد الشعارات
 from pathlib import Path
 from html import escape
